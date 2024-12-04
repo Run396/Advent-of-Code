@@ -39,7 +39,6 @@ for i in range(len(line)): #Collumn
 
 print('x-mas: ',acc)
 
-
 cross = 0
 def check2(tl,tr,bl,br):
     if ((tl == "M" and br == "S") or (tl == "S" and br == "M")) and ((tr == "M" and bl == "S") or (tr == "S" and bl == "M")):
